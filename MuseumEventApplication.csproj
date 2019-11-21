@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{61BE7F02-525D-4F2A-985B-F5A860795838}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FinalVersionOfProject</RootNamespace>
+    <AssemblyName>FinalVersionOfProject</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AirAndSpaceHallForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AirAndSpaceHallForm.Designer.cs">
+      <DependentUpon>AirAndSpaceHallForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseOptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChooseOptionForm.Designer.cs">
+      <DependentUpon>ChooseOptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmationForm.Designer.cs">
+      <DependentUpon>ConfirmationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FillingFirstNameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FillingFirstNameForm.Designer.cs">
+      <DependentUpon>FillingFirstNameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FillingNumberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FillingNumberForm.Designer.cs">
+      <DependentUpon>FillingNumberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GreatWesternWarehouseDirection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GreatWesternWarehouseDirection.Designer.cs">
+      <DependentUpon>GreatWesternWarehouseDirection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyboardForm.Designer.cs">
+      <DependentUpon>KeyboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumberOfAtendeesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumberOfAtendeesForm.Designer.cs">
+      <DependentUpon>NumberOfAtendeesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PowerHallForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PowerHallForm.Designer.cs">
+      <DependentUpon>PowerHallForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StationBuildingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StationBuildingForm.Designer.cs">
+      <DependentUpon>StationBuildingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkShopListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkShopListForm.Designer.cs">
+      <DependentUpon>WorkShopListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkShopTimeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkShopTimeForm.Designer.cs">
+      <DependentUpon>WorkShopTimeForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AirAndSpaceHallForm.resx">
+      <DependentUpon>AirAndSpaceHallForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChooseOptionForm.resx">
+      <DependentUpon>ChooseOptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmationForm.resx">
+      <DependentUpon>ConfirmationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FillingFirstNameForm.resx">
+      <DependentUpon>FillingFirstNameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FillingNumberForm.resx">
+      <DependentUpon>FillingNumberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GreatWesternWarehouseDirection.resx">
+      <DependentUpon>GreatWesternWarehouseDirection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyboardForm.resx">
+      <DependentUpon>KeyboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumberOfAtendeesForm.resx">
+      <DependentUpon>NumberOfAtendeesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerHallForm.resx">
+      <DependentUpon>PowerHallForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StationBuildingForm.resx">
+      <DependentUpon>StationBuildingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkShopListForm.resx">
+      <DependentUpon>WorkShopListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkShopTimeForm.resx">
+      <DependentUpon>WorkShopTimeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Great Western Warehouse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power hall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Air and Space Hall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Station Building.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\johnsonbanks_sm_3d_summer_poster_555.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
