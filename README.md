@@ -3,7 +3,8 @@ AUTHOR:
 Abdi-rahman Musse
 
 HOW TO START THIS PROJECT:
-You will need to downlaod and install Visual Studio. Once that is done, simply click on MuseumEventApplication.sln to start the application.
+
+You will need to downlaod and install Visual Studio. Once that is done, downlaod the repository. After that, simply click on MuseumEventApplication.sln to start the application.
 
 DATE:
 07/01/2018
